@@ -1,0 +1,97 @@
+
+
+* *::before *::after{
+    box-sizing:border-box !important; 
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box !important; 
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior:smooth;
+    box-sizing:border-box !important; 
+}
+
+body{
+    background-image:url("./images/black-naushniki-chernii-tekhnika-68484.jpeg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.nav{
+    background:rgb(22, 22, 22);
+    height:40px;
+    width:100%;
+    display: flex;
+position:fixed;
+z-index:1;
+overflow: hidden;
+
+}
+
+
+.nav li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+  line-height: 37px;
+}
+
+.nav li a{
+    list-style: none;
+    text-decoration: none;
+    color: antiquewhite;
+margin-left:66px;
+    padding:4px;
+    font-family: 'Manjari', sans-serif;
+}
+
+
+ #brand
+{
+color: antiquewhite;
+padding-left:18px;
+padding-right:68px;
+
+font-family: 'Manjari', sans-serif;
+
+font-weight:700;
+}
+
+
+
+#hero-player
+{
+    padding-top:41px;
+    width:100%;
+   background:rgba(15, 15, 15, 0.952);
+    margin-bottom: 15px;
+  height:370px;
+ 
+}
+
+
+footer
+{
+    text-align:center;
+    color: antiquewhite;
+    background:rgb(22, 22, 22);
+    padding:7px;
+}
+
+
+
+.open-modal
+{
+visibility: visible;
+}
+
+
+

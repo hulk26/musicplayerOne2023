@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicLab</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./genre.css">
+    <link rel="stylesheet" href="./streamingplatforms.css">
+   
+</head>
+<body>
+
+
+
+
+     <!--modal start-->
+ <!--about start-->
+
+ <div id="modalDiv" style="position: fixed; 
+ top:0;
+ left:0;
+ right:0;
+ bottom:0; background:rgba(0, 0, 0, 0.884);z-index:4;overflow:hidden;">
+
+<div id="modal-about-section-container" style="width:50%;height:58%; margin:auto; top:0;bottom:0;left:0;right:0; position:absolute; background:rgb(255, 0, 0);border-radius:16px;z-index:99;border:6px solid rgb(255, 60, 0);overflow: hidden;">
+   
+<div class="inner-modal-container" style="margin:auto;width:95%;border-radius:5px;height:90%;font-family: 'Manjari', sans-serif; text-align:center;">
+
+    <h1 style="color:black;">MUSICLAB</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>In provident atque, officia corporis aliquid beatae illum, numquam incidunt est illo quisquam recusandae.</p>
+<p>Eveniet ipsa quos quam illum molestiae repellat delectus?</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+<p>In provident atque, officia corporis aliquid beatae illum, numquam incidunt est illo quisquam recusandae.</p>
+
+     
+
+
+      <div id="modal-button"onclick="closemodal()"><a href="#" onclick="closemodal()">Listen to music</a></div>
+
+  
+
+  </div>
+
+
+  </div>
+  
+<style>
+  #modal-button 
+  {
+    border-radius:5px;
+      font-weight:700;
+width:145px;
+padding:7px; 
+color:white; 
+background:rgb(26, 102, 201);
+-webkit-user-select:none;
+user-select:none;
+margin:auto;
+cursor:pointer;
+  }
+
+  #modal-button a
+  {
+      text-decoration-line: none;
+      color:white;
+  }
+
+  #modal-button:hover
+  {
+background:rgb(15, 77, 158);
+  }
+</style>
+
+
+<!--about end-->
+<!--modal end-->
+</div>
+
+<!---modal end-->
+
+
+
+
+
+
+ <!--nav start-->
+    <div class="nav">
+
+    <div id="brand">  <!--nav brand-->
+    <li><a href="#hero-player" id="navitem">MusicLab</a> </li>
+</div>
+
+
+    <li><a href="#music-player" id="navitem">Genres</a></li>
+
+    <li><a href="#tracks-container-one" id="navitem">Download music</a>  </li>
+
+
+     <li><a href="#about-section-container" id="navitem">Contact us</a>  </li>
+
+
+     <i class="fa-regular fa-envelope" style="color:antiquewhite;margin-left:57px;margin-top:10px;font-size:large;cursor:pointer;"></i>
+
+
+
+
+
+</div>
+       <!--nav end-->
+
+
+<!--hero start-->
+<div id="hero-player" >
+ 
+<div class="hero-music" style="display:flex;width:90%;background:rgba(255, 102, 0, 0.005);margin:auto;margin-top:8px;">
+
+    <div class="hero-music-photo" style="width:210px;height:210px;">
+   
+      
+   <div class="purchase-box" style="width:83px;background:red;color:white;text-align:center;padding:4px;border-radius:2px;cursor:pointer; margin:auto;margin-top:150px;">
+    Download
+    </div>
+
+
+<style>
+    .hero-music-photo{
+        background-image:url("images/Pretty_Boy_Swag_-_Soulja_Boy_Tell\'Em_Official_Single_Cover.png");
+        width:100%;
+        background-position:center;
+        background-size:cover;
+    }
+</style>
+
+
+
+
+
+</div>
+
+<div class="info" style="color:#fff;margin-left:30px;flex:1;">
+    <h1 id="i" style="margin:0;padding:0;">pretty boy swag_soulja boy</h1>
+    <p id="jj">album - one (original never ends)</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+ <!--hero end-->
+
+
+
+
+
+
+ <!--music player start-->
+ <div id="music-player" class="music-player" style=" width:99%;margin:auto;">
+
+
+ <!--genrelist start-->
+ <div class="genreslist" id="genrelist">
+<div class="genres-container">
+
+<div class="genre" >
+    <li onclick="afrohouse()"><a href="#tracks-container-two">Afro-House</a></li>
+ </div>
+
+<div class="genre">
+<li onclick="amapiano()"><a href="#tracks-container-two">Amapiano</a></li>
+</div>
+
+<div class="genre" >
+    <li onclick="soulfulhouse()"><a href="#tracks-container-two">Soulful-House</a></li>
+</div>
+
+<div class="genre" >
+    <li onclick="deephouse()"><a href="#tracks-container-two">Deep-House</a></li>
+</div>
+
+<div class="genre" >
+    <li onclick="hiphop()"><a href="#tracks-container-two">Hip-Hop</a></li>
+</div>
+
+<div class="genre" >
+    <li onclick="kwaito()"><a href="#tracks-container-two">Kwaito</a></li>
+</div>
+
+</div>
+</div>  
+ </div>
+ <!--genrelist end-->
+
+
+
+
+
+
+
+<!--tracks start-->
+<!--tracks container 1 start-->
+<div id="tracks-container-one" style="width:85%;height:790px;margin:auto;padding-top:10px;">
+
+<!--tracks container 2 start-->
+  <div class="tracks-container-two" id="tracks-container-two" style="width:95%;height:780px;margin: auto;background:rgba(0, 0, 0, 0.205);">
+
+
+
+
+
+<!--afrohouse start-->
+<div class="afrohouse-container" id="afrohouse" style="width:100%;height:600px;transition-duration:1s;">
+<div class="genrename" style="width:100%;text-align: center;color:white;">
+    <h1>AFROHOUSE</h1>
+</div>
+
+
+
+    <!--searchbox start-->
+    <div id="searchbox" style="margin:auto;width:440px;height:10%;padding-bottom:9px;padding-left:7px;">
+        <input placeholder="search" type="text" style="height:50px;width:400px;border-radius:25px;border:none;box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.);">
+        <i class="fa-solid fa-magnifying-glass" style="font-size:x-large;color:white;"></i>
+    </div>
+     <!--searchbox end-->
+    
+
+<div class="track-list" style="background:red;width:100%;padding-top:8px;border-bottom: 2px solid rgba(0, 0, 0, 0.205);">
+    <audio controls>
+        <source src="" type="audio/mp3" sizes="" >
+    </audio>
+</div>
+<div class="track-list" style="background:red;width:100%;padding-top:8px; border-bottom: 2px solid rgba(0, 0, 0, 0.205);">
+    <audio controls>
+        <source src="" type="audio/mp3" sizes="" >
+    </audio>
+</div>
+
+<div class="track-list" style="background:red;width:100%;padding-top:8px; border-bottom: 2px solid rgba(0, 0, 0, 0.205);">
+    <audio controls>
+        <source src="" type="audio/mp3" sizes="" >
+    </audio>
+</div>
+
+<div class="track-list" style="background:red;width:100%;padding-top:8px; border-bottom: 2px solid rgba(0, 0, 0, 0.205);">
+    <audio controls>
+        <source src="" type="audio/mp3" sizes="" >
+    </audio>
+</div>
+
+<div class="track-list" style="background:red;width:100%;padding-top:8px; border-bottom: 2px solid rgba(0, 0, 0, 0.205);">
+    <audio controls>
+        <source src="" type="audio/mp3" sizes="" >
+    </audio>
+</div>
+
+
+</div>
+
+<!--afrohouse end-->
+
+
+
+
+
+<!--amapiano start-->
+<div class="amapiano-container" id="amapiano" style="width:100%;height:600px;display:none;transition-duration:1s;">
+    <div class="genrename" style="width:100%;background:red;">
+        <h1>AMAPIANO</h1>
+    </div>
+
+
+
+
+    <!--searchbox start-->
+    <div id="searchbox" style="margin:auto;width:440px;height:10%;padding-bottom:9px;padding-left:7px;">
+        <input placeholder="search" type="text" style="height:50px;width:400px;border-radius:25px;border:none;box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.8);">
+        <i class="fa-solid fa-magnifying-glass" style="font-size:x-large;color:white;"></i>
+    </div>
+     <!--searchbox end-->
+    
+
+</div>
+
+<!--amapiano end-->
+
+
+
+
+<!--soulful house start-->
+<div class="soulfulhouse-container" id="soulfulhouse" style="width:100%;height:600px;display:none;transition-duration:1s;">
+    <div class="genrename" style="width:100%;background:red;">
+        <h1>SOULFULHOUSE</h1>
+    </div>
+
+    
+ 
+
+    <!--searchbox start-->
+    <div id="searchbox" style="margin:auto;width:440px;height:10%;padding-bottom:9px;padding-left:7px;">
+        <input placeholder="search" type="text" style="height:50px;width:400px;border-radius:25px;border:none;box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.8);">
+        <i class="fa-solid fa-magnifying-glass" style="font-size:x-large;color:white;"></i>
+    </div>
+     <!--searchbox end-->
+    
+
+
+</div>
+
+<!--soulful house end-->
+
+
+
+
+<!--deep house start-->
+<div class="deephouse-container" id="deephouse" style="width:100%;height:600px;display:none;transition-duration:1s;">
+    <div class="genrename" style="width:100%;background:red;">
+        <h1>DEEPHOUSE</h1>
+    </div>
+
+
+
+    <!--searchbox start-->
+    <div id="searchbox" style="margin:auto;width:440px;height:10%;padding-bottom:9px;padding-left:7px;">
+        <input placeholder="search" type="text" style="height:50px;width:400px;border-radius:25px;border:none;box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.8);">
+        <i class="fa-solid fa-magnifying-glass" style="font-size:x-large;color:white;"></i>
+    </div>
+     <!--searchbox end-->
+    
+
+</div>
+
+<!--deep house end-->
+
+
+
+
+<!--hiphop house start-->
+<div class="hiphop-container" id="hiphop" style="width:100%;height:600px;display:none;transition-duration:1s;">
+    <div class="genrename" style="width:100%;background:red;">
+        <h1>HIPHOP</h1>
+    </div>
+
+
+
+    <!--searchbox start-->
+    <div id="searchbox" style="margin:auto;width:440px;height:10%;padding-bottom:9px;padding-left:7px;">
+        <input placeholder="search" type="text" style="height:50px;width:400px;border-radius:25px;border:none;box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.8);">
+        <i class="fa-solid fa-magnifying-glass" style="font-size:x-large;color:white;"></i>
+    </div>
+     <!--searchbox end-->
+    
+    
+</div>
+
+<!--hiphop house end-->
+
+
+
+
+<!--kwaito start-->
+
+<div class="kwaito-container" id="kwaito" style="width:100%;height:600px;display:none;transition-duration:1s;">
+    <div class="genrename" style="width:100%;background:red;">
+        <h1>KWAITO</h1>
+    </div>
+
+
+
+    <!--searchbox start-->
+    <div id="searchbox" style="margin:auto;width:440px;height:10%;padding-bottom:9px;padding-left:7px;">
+        <input placeholder="search" type="text" style="height:50px;width:400px;border-radius:25px;border:none;box-shadow:inset 0px 0px 3px rgba(0, 0, 0, 0.8);">
+        <i class="fa-solid fa-magnifying-glass" style="font-size:x-large;color:white;"></i>
+    </div>
+     <!--searchbox end-->
+    
+    
+
+</div>
+<!--kwaito end-->
+
+
+  </div> 
+<!--tracks container 2 end-->
+
+</div>
+<!--tracks container 1 end-->
+
+<!--tracks end-->
+
+
+
+
+
+
+
+
+ </div>
+ <!--music player end-->
+
+
+
+
+
+
+
+
+
+ <!--about start-->
+<div class="about-section">
+    <div id="about-section-container">
+      <h1 class="about-header">MusicLab</h1>
+        <p class="about-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed adipisci deserunt molestiae, qu</p>
+        <p class="about-paragraph">  repellendus reprehenderit, dolor at repudiandae sit cupiditate!</p>
+        <p class="about-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed adipisci deserunt molestiae, qui officiis</p>
+        <p class="about-paragraph">  repellendus reprehenderit, dolor at repudiandae sit cupiditate!</p> 
+        <p class="about-paragraph">We are also accepting music submissions.</p>
+        <p class="about-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed adipisci deserunt molestiae, qui offici,</p>
+        <p class="about-paragraph">  repellendus reprehenderit, dolor at repudiandae sit cupiditate!</p>
+         <p class="about-paragraph">and you should be hearing from us in not more than three working days.</p>
+        <p class="about-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed adipisci deserunt molestiae, qui officiis,</p>
+        <p class="about-paragraph">  repellendus reprehenderit, dolor at repudiandae sit cupiditate!</p>
+        <p class="about-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed adipisci deserunt molestiae,</p>
+        <p class="about-paragraph">  repellendus reprehenderit, dolor at repudiandae sit cupiditate!</p>
+
+    </div>
+   </div>
+<!--about end-->
+
+
+
+
+
+
+<!--streamingplatforms start-->
+<div class="streaming-platforms">
+    <div class="streaming-platforms-container">
+       
+        <li id="streaming-platforms-item"><a href="">Facebook</a></li>
+     <li id="streaming-platforms-item"><a href="">Twitter</a></li>
+        <li id="streaming-platforms-item"><a href="">Instagram</a></li>
+        <li id="streaming-platforms-item"><a href="">Tiktok</a></li>
+        <li id="streaming-platforms-item"><a href="">Soundcloud</a></li>
+        <li id="streaming-platforms-item"><a href="">Audiomack</a></li>
+        <li id="streaming-platforms-item"><a href="">YoubeTube</a></li>
+
+    </div>  
+</div>
+
+ <!--streamingplatforms end-->
+
+
+
+
+  <!--footer start-->
+  <footer>
+    <p>copyright &copy; 2023 <span>MusicLab</span></p>
+  </footer>
+  <!--footer end-->
+
+
+
+
+
+
+     <script src="./genrefunction.js"></script>
+     <script src="./modal.js"></script>
+
+</body>
+</html>

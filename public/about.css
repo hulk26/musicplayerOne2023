@@ -1,0 +1,30 @@
+
+
+@font-face {
+    font-family:rubikmono;
+    src: url(/views/fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf);
+}
+
+.about-section
+{
+    margin-top:170px;  
+    margin-bottom:150px; 
+   
+}
+
+#about-section-container{
+    width:95%;
+    margin: auto;
+  overflow: hidden;
+}
+
+
+
+.about-section,.about-header,.about-paragraph
+{
+    color:white;
+    text-align: center;
+    font-family: 'Manjari', sans-serif;
+
+    
+}

@@ -1,0 +1,49 @@
+
+
+#genreslist
+{
+  margin: auto;
+    width: 95%;
+
+ 
+}
+
+.genres-container
+{
+margin: auto;
+    width:80%;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+
+}
+
+
+.genre{
+  background:rgba(15, 15, 15, 0.952);
+ text-align: center;
+ border: 1px rgba(255, 255, 255, 0.123) solid;
+padding:30px;
+margin-top:15px;
+border-radius:5px;
+}
+
+
+
+
+
+.genre li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.genre li a{
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight:700;
+  font-size:large;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
